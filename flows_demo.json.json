@@ -1,0 +1,1279 @@
+[
+    {
+        "id": "cbb1549c1a5914c5",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2eaed25fc7522a67",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "name": "Demo",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "028d4426f3bca91e",
+            "7ae82f78772903f9"
+        ],
+        "x": 48,
+        "y": 13,
+        "w": 464,
+        "h": 334
+    },
+    {
+        "id": "60392472c6c16494",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "name": "Test 1: Topic quyết định bên nhận",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7cfcf72b61ef23c3",
+            "c2d655a00dd789e8"
+        ],
+        "x": 48,
+        "y": 373,
+        "w": 464,
+        "h": 334
+    },
+    {
+        "id": "1cf6328f8bcee689",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "name": "Test 2: Một bên gửi, nhiều bên nhận",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "52d5815c78b51d2b",
+            "4bca117689d5eb45",
+            "7a8960f89a394ad7"
+        ],
+        "x": 568,
+        "y": 13,
+        "w": 464,
+        "h": 414
+    },
+    {
+        "id": "7317d2d0fc40186c",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "name": "Test 3: Đăng ký nhiều topic bằng wildcard",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "303e31b11f0ec9ce",
+            "1a1cfd0274c6c495"
+        ],
+        "x": 568,
+        "y": 473,
+        "w": 464,
+        "h": 334
+    },
+    {
+        "id": "028d4426f3bca91e",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "2eaed25fc7522a67",
+        "name": "Bên A:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c5e97808dd7d9737",
+            "8782dd86f7698c06",
+            "798a71c5c85d5f72",
+            "77f2fc86b02c33b6"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "7ae82f78772903f9",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "2eaed25fc7522a67",
+        "name": "Bên B:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "955a38001998031d",
+            "48820ad6e502addf",
+            "8a7ff890afe7a569",
+            "6a885fbf4a2a2307"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "7cfcf72b61ef23c3",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "60392472c6c16494",
+        "name": "Bên A:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9e0bb9fe72152804",
+            "6d8c1a0e2c54047e",
+            "306ba0d37b3f377a",
+            "197ffe0b93a13a16"
+        ],
+        "x": 74,
+        "y": 399,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "c2d655a00dd789e8",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "60392472c6c16494",
+        "name": "Bên B:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "65ff50186a24e6f7",
+            "72e8e9839ef75f45",
+            "7eb61829e9087315",
+            "a747c8076af11c13"
+        ],
+        "x": 74,
+        "y": 539,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "52d5815c78b51d2b",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "1cf6328f8bcee689",
+        "name": "Bên A",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "725fbcac4985406a",
+            "ccbbf582d2adeac3",
+            "12964f48c09ddf37",
+            "33f4eb55712ea608"
+        ],
+        "x": 594,
+        "y": 39,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "4bca117689d5eb45",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "1cf6328f8bcee689",
+        "name": "Bên B:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "63f7fa4998fd2e18",
+            "7c0e5e2ac385c7ed",
+            "d2019146de7b732d",
+            "67e972ee2c624495"
+        ],
+        "x": 594,
+        "y": 179,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "7a8960f89a394ad7",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "1cf6328f8bcee689",
+        "name": "Copy",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f432396c62b57b60",
+            "6d76cc06d6551533"
+        ],
+        "x": 594,
+        "y": 319,
+        "w": 412,
+        "h": 82
+    },
+    {
+        "id": "303e31b11f0ec9ce",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "7317d2d0fc40186c",
+        "name": "Bên A:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e6ee05d50933cb32",
+            "032dcd02b521fcfb",
+            "4447d42577bda732",
+            "669213216dc529e2"
+        ],
+        "x": 594,
+        "y": 499,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "1a1cfd0274c6c495",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "g": "7317d2d0fc40186c",
+        "name": "Bên B:",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "931b468793dfde78",
+            "cec6048a7a2fae03",
+            "8f8a657a891baf1c",
+            "caac4e4f501ff3b5"
+        ],
+        "x": 594,
+        "y": 639,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "bb707fd0c6f9f6ec",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "name": "Test 4: Retained message",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8843d256fed2ff09",
+            "14b0bd64d4f65936",
+            "0d552a290cc44547",
+            "cc9c37f311a38238"
+        ],
+        "x": 1074,
+        "y": 19,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "9441650fbc262f16",
+        "type": "group",
+        "z": "cbb1549c1a5914c5",
+        "name": "Test 5: QoS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dbc6f68e8b077ed6",
+            "1f5ca9950dae1f6d",
+            "62211b46006df399",
+            "4b51e8dddb1d94af"
+        ],
+        "x": 1074,
+        "y": 179,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "broker_config",
+        "type": "mqtt-broker",
+        "name": "Public HiveMQ Broker",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthQos": "0",
+        "willQos": "0"
+    },
+    {
+        "id": "c5e97808dd7d9737",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "028d4426f3bca91e",
+        "name": "A send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/a_to_b",
+        "payload": "Xin chào B",
+        "payloadType": "str",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "77f2fc86b02c33b6"
+            ]
+        ]
+    },
+    {
+        "id": "955a38001998031d",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7ae82f78772903f9",
+        "name": "B send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/b_to_a",
+        "payload": "B đã nhận được tin nhắn",
+        "payloadType": "str",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "6a885fbf4a2a2307"
+            ]
+        ]
+    },
+    {
+        "id": "8782dd86f7698c06",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "028d4426f3bca91e",
+        "name": "Debug 1 (A)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "48820ad6e502addf",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7ae82f78772903f9",
+        "name": "debug 2 (B)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "798a71c5c85d5f72",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "028d4426f3bca91e",
+        "name": "A listen",
+        "topic": "chat/b_to_a",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "8782dd86f7698c06"
+            ]
+        ]
+    },
+    {
+        "id": "77f2fc86b02c33b6",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "028d4426f3bca91e",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 380,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8a7ff890afe7a569",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7ae82f78772903f9",
+        "name": "B listen",
+        "topic": "chat/a_to_b",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 220,
+        "wires": [
+            [
+                "48820ad6e502addf"
+            ]
+        ]
+    },
+    {
+        "id": "6a885fbf4a2a2307",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7ae82f78772903f9",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 380,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9e0bb9fe72152804",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7cfcf72b61ef23c3",
+        "name": "A send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/a_to_b",
+        "payload": "Xin chào B",
+        "payloadType": "str",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "197ffe0b93a13a16"
+            ]
+        ]
+    },
+    {
+        "id": "6d8c1a0e2c54047e",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7cfcf72b61ef23c3",
+        "name": "Debug 1 (A)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "306ba0d37b3f377a",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7cfcf72b61ef23c3",
+        "name": "A listen",
+        "topic": "chat/b_to_a",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "6d8c1a0e2c54047e"
+            ]
+        ]
+    },
+    {
+        "id": "197ffe0b93a13a16",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7cfcf72b61ef23c3",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 380,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "65ff50186a24e6f7",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "c2d655a00dd789e8",
+        "name": "B send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/b_to_a",
+        "payload": "B đã nhận được tin nhắn",
+        "payloadType": "str",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "a747c8076af11c13"
+            ]
+        ]
+    },
+    {
+        "id": "72e8e9839ef75f45",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "c2d655a00dd789e8",
+        "name": "debug 2 (B)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7eb61829e9087315",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "c2d655a00dd789e8",
+        "name": "",
+        "topic": "chat/other",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 580,
+        "wires": [
+            [
+                "72e8e9839ef75f45"
+            ]
+        ]
+    },
+    {
+        "id": "a747c8076af11c13",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "c2d655a00dd789e8",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 380,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "725fbcac4985406a",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "52d5815c78b51d2b",
+        "name": "A send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/a_to_b",
+        "payload": "Xin chào B",
+        "payloadType": "str",
+        "x": 690,
+        "y": 80,
+        "wires": [
+            [
+                "33f4eb55712ea608"
+            ]
+        ]
+    },
+    {
+        "id": "ccbbf582d2adeac3",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "52d5815c78b51d2b",
+        "name": "Debug 1 (A)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "12964f48c09ddf37",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "52d5815c78b51d2b",
+        "name": "A listen",
+        "topic": "chat/b_to_a",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 690,
+        "y": 140,
+        "wires": [
+            [
+                "ccbbf582d2adeac3"
+            ]
+        ]
+    },
+    {
+        "id": "33f4eb55712ea608",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "52d5815c78b51d2b",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 900,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "63f7fa4998fd2e18",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "4bca117689d5eb45",
+        "name": "B send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/b_to_a",
+        "payload": "B đã nhận được tin nhắn",
+        "payloadType": "str",
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "67e972ee2c624495"
+            ]
+        ]
+    },
+    {
+        "id": "7c0e5e2ac385c7ed",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "4bca117689d5eb45",
+        "name": "debug 2 (B)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d2019146de7b732d",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "4bca117689d5eb45",
+        "name": "B listen",
+        "topic": "chat/a_to_b",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 690,
+        "y": 220,
+        "wires": [
+            [
+                "7c0e5e2ac385c7ed"
+            ]
+        ]
+    },
+    {
+        "id": "67e972ee2c624495",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "4bca117689d5eb45",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 900,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f432396c62b57b60",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7a8960f89a394ad7",
+        "name": "",
+        "topic": "chat/a_to_b",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 690,
+        "y": 360,
+        "wires": [
+            [
+                "6d76cc06d6551533"
+            ]
+        ]
+    },
+    {
+        "id": "6d76cc06d6551533",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "7a8960f89a394ad7",
+        "name": "Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e6ee05d50933cb32",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "303e31b11f0ec9ce",
+        "name": "A send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/a_to_b",
+        "payload": "Xin chào B",
+        "payloadType": "str",
+        "x": 690,
+        "y": 540,
+        "wires": [
+            [
+                "669213216dc529e2"
+            ]
+        ]
+    },
+    {
+        "id": "032dcd02b521fcfb",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "303e31b11f0ec9ce",
+        "name": "Debug 1 (A)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "4447d42577bda732",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "303e31b11f0ec9ce",
+        "name": "A listen",
+        "topic": "chat/#",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 690,
+        "y": 600,
+        "wires": [
+            [
+                "032dcd02b521fcfb"
+            ]
+        ]
+    },
+    {
+        "id": "669213216dc529e2",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "303e31b11f0ec9ce",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 900,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "931b468793dfde78",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "1a1cfd0274c6c495",
+        "name": "B send",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/b_to_a",
+        "payload": "B đã nhận được tin nhắn",
+        "payloadType": "str",
+        "x": 690,
+        "y": 740,
+        "wires": [
+            [
+                "caac4e4f501ff3b5"
+            ]
+        ]
+    },
+    {
+        "id": "cec6048a7a2fae03",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "1a1cfd0274c6c495",
+        "name": "debug 2 (B)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "8f8a657a891baf1c",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "1a1cfd0274c6c495",
+        "name": "B listen",
+        "topic": "chat/a_to_b",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 690,
+        "y": 680,
+        "wires": [
+            [
+                "cec6048a7a2fae03"
+            ]
+        ]
+    },
+    {
+        "id": "caac4e4f501ff3b5",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "1a1cfd0274c6c495",
+        "name": "Send to Broker",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 900,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "8843d256fed2ff09",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "bb707fd0c6f9f6ec",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "14b0bd64d4f65936",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "bb707fd0c6f9f6ec",
+        "name": "Nhận vào sau",
+        "topic": "chat/trang_thai",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1170,
+        "y": 120,
+        "wires": [
+            [
+                "8843d256fed2ff09"
+            ]
+        ]
+    },
+    {
+        "id": "0d552a290cc44547",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "bb707fd0c6f9f6ec",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "chat/trang_thai",
+        "payload": "Trạng thái mới nhất: sẵn sàng",
+        "payloadType": "str",
+        "x": 1170,
+        "y": 60,
+        "wires": [
+            [
+                "cc9c37f311a38238"
+            ]
+        ]
+    },
+    {
+        "id": "cc9c37f311a38238",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "d": true,
+        "g": "bb707fd0c6f9f6ec",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 1370,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "dbc6f68e8b077ed6",
+        "type": "debug",
+        "z": "cbb1549c1a5914c5",
+        "g": "9441650fbc262f16",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1f5ca9950dae1f6d",
+        "type": "mqtt in",
+        "z": "cbb1549c1a5914c5",
+        "g": "9441650fbc262f16",
+        "name": "Nhận vào sau",
+        "topic": "demo/trang_thai",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1170,
+        "y": 280,
+        "wires": [
+            [
+                "dbc6f68e8b077ed6"
+            ]
+        ]
+    },
+    {
+        "id": "62211b46006df399",
+        "type": "inject",
+        "z": "cbb1549c1a5914c5",
+        "g": "9441650fbc262f16",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "demo/trang_thai",
+        "payload": "Trạng thái mới nhất: sẵn sàng",
+        "payloadType": "str",
+        "x": 1170,
+        "y": 220,
+        "wires": [
+            [
+                "4b51e8dddb1d94af"
+            ]
+        ]
+    },
+    {
+        "id": "4b51e8dddb1d94af",
+        "type": "mqtt out",
+        "z": "cbb1549c1a5914c5",
+        "g": "9441650fbc262f16",
+        "name": "",
+        "topic": "",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 1370,
+        "y": 220,
+        "wires": []
+    }
+]

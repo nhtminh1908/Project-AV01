@@ -1,0 +1,111 @@
+[
+    {
+        "id": "e3ae541d55032d41",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5db3e559f15e28e1",
+        "type": "mqtt in",
+        "z": "e3ae541d55032d41",
+        "name": "[SUBSCRIBE] Nhận từ Python",
+        "topic": "av01/python_to_node",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "c0c4afedd2fe3b71"
+            ]
+        ]
+    },
+    {
+        "id": "0142030c457aeaf1",
+        "type": "mqtt out",
+        "z": "e3ae541d55032d41",
+        "name": "[PUBLISH] Gửi qua Python",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "broker_config",
+        "x": 760,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "bc43549efa88b2ec",
+        "type": "inject",
+        "z": "e3ae541d55032d41",
+        "name": "Bấm gửi Python",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "av01/node_to_python",
+        "payload": "Hello Python",
+        "payloadType": "str",
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "0142030c457aeaf1"
+            ]
+        ]
+    },
+    {
+        "id": "c0c4afedd2fe3b71",
+        "type": "debug",
+        "z": "e3ae541d55032d41",
+        "name": "Màn hình Node",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "broker_config",
+        "type": "mqtt-broker",
+        "name": "Public HiveMQ Broker",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthQos": "0",
+        "willQos": "0"
+    }
+]
